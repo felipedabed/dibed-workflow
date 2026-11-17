@@ -52,7 +52,6 @@ export function buildExtractionRequest(kind, documents, rulebook, extra = {}) {
   return {
     model: (extra.model || rulebook.ai.model),
     max_tokens: rulebook.ai.max_tokens,
-    temperature: rulebook.ai.temperature,
     system,
     messages: [{ role: 'user', content: user }],
   };

@@ -50,7 +50,7 @@ Every gate records **who decided, when, the reason, and whether it overrode the 
   n8n Code nodes, so what is tested is what runs.
 * **Configuration:** `rulebook/rulebook.json` — tier thresholds, grant caps, /80 criteria, weights, SLAs, AI model,
   cost caps. Changing a rule = editing config + approval, not code.
-* **AI:** Anthropic Claude, temperature 0, pinned model, versioned prompt. Extraction only. Secrets live in the n8n
+* **AI:** Anthropic Claude, pinned model, versioned prompt (sampling parameters are fixed by the model). Extraction only. Secrets live in the n8n
   credential store, never in the workflow file.
 
 ## Run it

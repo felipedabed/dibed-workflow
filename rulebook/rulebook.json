@@ -88,7 +88,7 @@
   "ai": {
     "provider": "anthropic",
     "model": "claude-sonnet-5-5",
-    "temperature": 0,
+    "determinism": "pinned model + versioned prompt + citation verification; the final calculation is always done by rules",
     "max_tokens": 4000,
     "role": "bounded extraction and comparison only - never decides",
     "cost_assumptions_usd_per_million_tokens": { "input": 3.0, "output": 15.0 },

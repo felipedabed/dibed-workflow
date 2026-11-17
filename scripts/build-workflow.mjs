@@ -225,7 +225,7 @@ add(N.claude, 'n8n-nodes-base.httpRequest', 4.2, [col(7), AI], {
   options: { timeout: 120000 },
 }, { onError: 'continueErrorOutput', retryOnFail: true, maxTries: 2, waitBetweenTries: 2000,
   credentials: { anthropicApi: { id: 'ANTHROPIC_CREDENTIAL_ID', name: 'Anthropic account' } },
-  notes: 'Extraction only. Temperature 0. Errors → fallback extractor', notesInFlow: true });
+  notes: 'Extraction only. Errors → fallback extractor', notesInFlow: true });
 
 code(N.parse, [col(8), AI - 120], `${REF}
 const c = ${prev(N.buildAi)};
@@ -610,7 +610,7 @@ sticky('## STEP 4 · EOI & DSP matchmaking\nHard filters → **30/30/10/10/20** 
 sticky('## STEPS 5–7 · OUT OF SCOPE\nAgreement, 1st disbursement, implementation. Payments are never executed by this system.', [col(23) - 40, top], col(4) - 10, 520, 1);
 sticky('## STEP 8 · First report review\n**🤖 AI** reads receipt, invoice, contract, evidence · **📏 validator** R8.01–R8.10 · **👤 Staff** accept → unlocks 2nd disbursement.', [col(27) - 40, top], col(7) + 30, 520, 3);
 sticky('## STEPS 9–11 · Final report & close-out\n2nd disbursement + final implementation out of scope · **📏 R11** validator · **👤 Staff** close the case · full case record + audit trail.', [col(34) - 10, top], col(11) - 20, 520, 2);
-sticky('## 🤖 SHARED AI SERVICE (bounded)\nClaude only **extracts values + exact quotes + page**. Every quote is verified against the source. If the AI fails or is unavailable → **deterministic fallback** so the case never stops. Temperature 0, pinned model, versioned prompts.', [col(6) - 40, AI - 300], col(4) + 40, 560, 6);
+sticky('## 🤖 SHARED AI SERVICE (bounded)\nClaude only **extracts values + exact quotes + page**. Every quote is verified against the source. If the AI fails or is unavailable → **deterministic fallback** so the case never stops. Pinned model, versioned prompts.', [col(6) - 40, AI - 300], col(4) + 40, 560, 6);
 sticky('# DIBED supervised workflow\n**Legend:** 👤 human decision · 📏 deterministic rule (rulebook ' + rulebook.version + ') · 🤖 AI extraction · 🛡️ guardrail · 🛟 fallback · ⏸️ out of scope\n\nOne execution = one MSME case. Open **Executions** to see the raw input/output of every box.', [col(0) - 40, top - 300], col(10), 260, 1);
 
 const workflow = {
