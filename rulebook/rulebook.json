@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0-demo",
+  "status": "DRAFT - illustrative values, to be confirmed with BELTRAIDE at inception",
+  "approved_by": "Program Owner (pending)",
+  "effective_from": "2027-01-01",
+  "currency": "BZD",
+  "sources": {
+    "tier_thresholds": "BELTRAIDE DIBED MSME Expression of Interest 2027 form (official thresholds)",
+    "grant_caps": "IDB ToR: up to BZ$4,000 micro/small, up to BZ$40,000 medium with advanced digital maturity",
+    "matchmaking_weights": "IDB ToR: 30/30/10/10/20 weighting (dimension names ASSUMED, to confirm)",
+    "everything_else": "Illustrative placeholders for the demo"
+  },
+
+  "program": {
+    "end_date": "2028-02-28",
+    "expected_cycle_days": 180,
+    "belize_districts": ["Belize", "Cayo", "Corozal", "Orange Walk", "Stann Creek", "Toledo"],
+    "eligible_sectors": [
+      "Agriculture", "Food and Beverage", "Creative Industry", "Professional Service",
+      "Health and Wellness", "Tourism and Hospitality", "Retail and E Commerce",
+      "Logistics and Delivery Service", "Light Manufacturing"
+    ]
+  },
+
+  "tiers": {
+    "order": ["micro", "small", "medium"],
+    "micro":  { "employees_below": 5,  "annual_sales_below": 99400,   "capital_below": 49600,  "space_m2_below": null, "grant_cap": 4000 },
+    "small":  { "employees_below": 20, "annual_sales_below": 496800,  "capital_below": 149000, "space_m2_below": 372,  "grant_cap": 4000 },
+    "medium": { "employees_below": 50, "annual_sales_below": 1490400, "capital_below": 496800, "space_m2_below": 557,  "grant_cap": 40000,
+                "requires_advanced_digital_maturity": true, "min_digital_tools_for_maturity": 3 }
+  },
+
+  "screening": {
+    "mandatory_documents": ["dtp", "business_registration", "financial_statement"],
+    "max_points": 80,
+    "pass_threshold": 50,
+    "borderline_band": 3,
+    "budget_sum_tolerance": 0.01,
+    "criteria": [
+      { "id": "C1", "name": "Business need and problem clarity",        "max": 15, "method": "ai_suggested_human_confirmed" },
+      { "id": "C2", "name": "Quality and fit of the digital solution",  "max": 20, "method": "ai_suggested_human_confirmed" },
+      { "id": "C3", "name": "Measurable objectives",                    "max": 15, "method": "deterministic", "points_per_valid_objective": 5 },
+      { "id": "C4", "name": "Budget coherence",                         "max": 15, "method": "deterministic" },
+      { "id": "C5", "name": "Implementation readiness",                 "max": 10, "method": "deterministic" },
+      { "id": "C6", "name": "Export and growth potential",              "max": 5,  "method": "deterministic",
+        "points_by_export_experience": {
+          "Currently exporting": 5,
+          "Previously exported but not currently exporting": 4,
+          "Never exported but interested in starting": 3,
+          "Unsure whether my business's sales qualify as exports": 2,
+          "Not currently interested in exporting": 1
+        } }
+    ]
+  },
+
+  "dtp_review": {
+    "implementation_must_end_by": "2027-12-31",
+    "budget_change_alert_ratio": 0.20,
+    "service_categories": [
+      "ecommerce", "website", "digital_payments", "accounting_software", "inventory_software",
+      "crm_booking", "digital_marketing", "cybersecurity", "training"
+    ]
+  },
+
+  "matchmaking": {
+    "weights": { "service_fit": 0.30, "price": 0.30, "timeline": 0.10, "msme_preference": 0.10, "track_record": 0.20 },
+    "weights_note": "30/30/10/10/20 from the ToR; dimension names are ASSUMED and must be confirmed at inception",
+    "hard_filters": ["dsp_active", "offers_required_category", "quote_received", "quote_within_approved_budget", "capacity_available"],
+    "shortlist_size": 3,
+    "oversubscription": { "trigger": "current_load >= capacity", "tie_break": "ASSUMED: higher total score first; to confirm at inception" }
+  },
+
+  "reports": {
+    "first_tranche_share": 0.5,
+    "min_share_of_tranche_paid": 0.8,
+    "invoice_payment_tolerance": 0.01,
+    "min_field_confidence": 0.8
+  },
+
+  "sla_days": {
+    "screening": 21,
+    "advisor_review": 14,
+    "matchmaking": 21,
+    "report_1_review": 14,
+    "final_review": 14
+  },
+
+  "ai": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5-5",
+    "temperature": 0,
+    "max_tokens": 4000,
+    "role": "bounded extraction and comparison only - never decides",
+    "cost_assumptions_usd_per_million_tokens": { "input": 3.0, "output": 15.0 },
+    "monthly_cost_cap_usd": 150,
+    "alert_at_share_of_cap": 0.8
+  }
+}

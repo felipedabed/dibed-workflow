@@ -1,0 +1,13 @@
+{
+  "name": "dibed-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Supervised AI workflow for the DIBED MSME grant program (BELTRAIDE / IDB): rules engine + bounded AI extraction + human gates, orchestrated in n8n",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build-workflow.mjs",
+    "deploy": "node scripts/deploy-n8n.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

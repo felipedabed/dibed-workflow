@@ -1,0 +1,224 @@
+{
+  "_note": "SYNTHETIC demo data. Fictional Belizean MSMEs and providers. No real personal data.",
+  "packages": {
+    "A": {
+      "label": "A · Maya's Bakery Ltd. (small, complete, strong plan)",
+      "business_name": "Maya's Bakery Ltd.",
+      "owners": [
+        "Ana Chen"
+      ],
+      "documents_v1": [
+        {
+          "type": "dtp",
+          "name": "DTP_Mayas_Bakery_v1.pdf",
+          "text": "[Page 1]\nDIGITAL TRANSFORMATION PLAN\nBusiness name: Maya's Bakery Ltd.\nRegistration number: BZ-2019-04417\nDistrict: Cayo\nFull-time employees: 7\nAnnual sales (2026): BZD 182,000\nCapital investment: BZD 61,000\nAmount requested: BZD 3,800\nResponsible person: Ana Chen, Owner\n[Page 2]\n1. Problem statement\nAbout 70% of our orders arrive by phone or WhatsApp and are written by hand. In 2026 we lost an estimated 40 orders per month because of missed messages, and each order takes 20 minutes to confirm and collect payment. We cannot accept card payments for delivery orders.\n2. Proposed solution\nWe will launch an online store with a product catalogue and online ordering (ecommerce), add a card and mobile payment gateway connected to a POS (digital payments), and train three staff members to manage orders and payments (training). The store will be promoted to our 3,500 Instagram followers.\n3. Objectives\nO1: Launch the online store and move sales online | Metric: share of monthly sales placed online | Target: 15% | Date: 2027-10-31\nO2: Reduce order handling time | Metric: minutes per order | Target: from 20 to 8 | Date: 2027-09-30\nO3: Train staff on the new order and payment system | Metric: staff trained | Target: 3 people | Date: 2027-06-01\n[Page 3]\n4. Budget\nB1 | ecommerce | Online store setup and product catalogue | BZD 2,100\nB2 | digital_payments | Payment gateway and POS integration | BZD 1,100\nB3 | training | Staff training on orders and payments (3 people) | BZD 600\nDeclared total: BZD 3,800\n5. Timeline\nStart: 2027-04-01\nEnd: 2027-09-30\n"
+        },
+        {
+          "type": "business_registration",
+          "name": "Certificate_of_Incorporation_BZ-2019-04417.pdf",
+          "text": "[Page 1]\nBELIZE COMPANIES AND CORPORATE AFFAIRS REGISTRY\nCertificate of Incorporation\nCompany: Maya's Bakery Ltd.\nRegistration number: BZ-2019-04417\nDate of incorporation: 2019-03-14\n"
+        },
+        {
+          "type": "financial_statement",
+          "name": "Financial_Statement_2026.pdf",
+          "text": "[Page 1]\nMaya's Bakery Ltd. — Statement of income 2026\nRevenue: BZD 182,000\nNet income: BZD 21,400\nFixed assets (capital investment): BZD 61,000\n"
+        }
+      ],
+      "documents_v2": null,
+      "quotes": [
+        {
+          "dsp_id": "DSP-01",
+          "total": 3600,
+          "weeks": 8,
+          "categories_covered": [
+            "ecommerce",
+            "training"
+          ],
+          "quote_ref": "Q-A-01"
+        },
+        {
+          "dsp_id": "DSP-02",
+          "total": 3750,
+          "weeks": 6,
+          "categories_covered": [
+            "ecommerce",
+            "digital_payments",
+            "training"
+          ],
+          "quote_ref": "Q-A-02"
+        },
+        {
+          "dsp_id": "DSP-04",
+          "total": 3500,
+          "weeks": 7,
+          "categories_covered": [
+            "ecommerce",
+            "digital_payments"
+          ],
+          "quote_ref": "Q-A-04"
+        },
+        {
+          "dsp_id": "DSP-06",
+          "total": 2900,
+          "weeks": 10,
+          "categories_covered": [
+            "training"
+          ],
+          "quote_ref": "Q-A-06"
+        }
+      ]
+    },
+    "B": {
+      "label": "B · Hopkins Eco Lodge (medium, borderline, conflict of interest)",
+      "business_name": "Hopkins Eco Lodge",
+      "owners": [
+        "Rosa Garcia",
+        "Tom Avila"
+      ],
+      "documents_v1": [
+        {
+          "type": "dtp",
+          "name": "DTP_Hopkins_Eco_Lodge_v1.pdf",
+          "text": "[Page 1]\nDIGITAL TRANSFORMATION PLAN\nBusiness name: Hopkins Eco Lodge\nRegistration number: BZ-2014-01192\nDistrict: Stann Creek\nFull-time employees: 32\nAnnual sales (2026): BZD 1,120,000\nCapital investment: BZD 380,000\nAmount requested: BZD 36,000\nResponsible person: Tom Avila, Operations Manager\n[Page 2]\n1. Problem statement\nBookings come from email, OTAs and walk-ins and are tracked in a spreadsheet, with about 15 double bookings a year.\n2. Proposed solution\nA booking system (crm booking) with a new website and online payments.\n3. Objectives\nO1: Centralize reservations | Metric: share of bookings in one system | Target: 100% | Date: 2027-08-31\nO2: Increase direct bookings | Metric: direct bookings share | Target: 35% | Date: none\nO3: Train front desk staff | Metric: staff trained | Target: 6 people | Date: 2027-07-15\n[Page 3]\n4. Budget\nB1 | crm_booking | Booking engine and channel manager | BZD 18,000\nB2 | website | New website with booking widget | BZD 9,000\nB3 | digital_payments | Online payments integration | BZD 6,000\nB4 | training | Front desk training | BZD 3,000\nDeclared total: BZD 37,500\n5. Timeline\nStart: 2027-05-01\nEnd: 2027-11-30\n"
+        },
+        {
+          "type": "business_registration",
+          "name": "Registration_BZ-2014-01192.pdf",
+          "text": "[Page 1]\nBELIZE COMPANIES AND CORPORATE AFFAIRS REGISTRY\nCompany: Hopkins Eco Lodge\nRegistration number: BZ-2014-01192\nDirectors: Rosa Garcia, Tom Avila\n"
+        },
+        {
+          "type": "financial_statement",
+          "name": "Audited_Financials_2026.pdf",
+          "text": "[Page 1]\nHopkins Eco Lodge — Financial statements 2026\nRevenue: BZD 1,120,000\nFixed assets: BZD 380,000\n"
+        }
+      ],
+      "documents_v2": [
+        {
+          "type": "dtp",
+          "name": "DTP_Hopkins_Eco_Lodge_v2.pdf",
+          "text": "[Page 1]\nDIGITAL TRANSFORMATION PLAN (revised v2)\nBusiness name: Hopkins Eco Lodge\nRegistration number: BZ-2014-01192\nDistrict: Stann Creek\nFull-time employees: 32\nAnnual sales (2026): BZD 1,120,000\nCapital investment: BZD 380,000\nAmount requested: BZD 36,000\nResponsible person: Tom Avila, Operations Manager\n[Page 2]\n1. Problem statement\nBookings come from email, OTAs and walk-ins and are tracked in a spreadsheet; in 2026 we recorded 22 double bookings and paid BZD 41,000 in OTA commissions.\n2. Proposed solution\nA booking engine and channel manager (crm booking), a new website with a booking widget, online payments, and front desk training.\n3. Objectives\nO1: Centralize reservations | Metric: share of bookings in one system | Target: 100% | Date: 2027-08-31\nO2: Increase direct bookings | Metric: direct bookings share | Target: 35% | Date: 2027-11-30\nO3: Train front desk staff | Metric: staff trained | Target: 6 people | Date: 2027-07-15\n[Page 3]\n4. Budget\nB1 | crm_booking | Booking engine and channel manager | BZD 18,000\nB2 | website | New website with booking widget | BZD 9,000\nB3 | digital_payments | Online payments integration | BZD 6,000\nB4 | training | Front desk training | BZD 3,000\nDeclared total: BZD 36,000\n5. Timeline\nStart: 2027-05-01\nEnd: 2027-11-30\n"
+        }
+      ],
+      "quotes": [
+        {
+          "dsp_id": "DSP-04",
+          "total": 34000,
+          "weeks": 12,
+          "categories_covered": [
+            "crm_booking",
+            "website",
+            "digital_payments"
+          ],
+          "quote_ref": "Q-B-04"
+        },
+        {
+          "dsp_id": "DSP-08",
+          "total": 31500,
+          "weeks": 10,
+          "categories_covered": [
+            "crm_booking",
+            "website",
+            "digital_payments"
+          ],
+          "quote_ref": "Q-B-08"
+        },
+        {
+          "dsp_id": "DSP-01",
+          "total": 33000,
+          "weeks": 14,
+          "categories_covered": [
+            "website",
+            "training"
+          ],
+          "quote_ref": "Q-B-01"
+        },
+        {
+          "dsp_id": "DSP-05",
+          "total": 29000,
+          "weeks": 9,
+          "categories_covered": [
+            "website"
+          ],
+          "quote_ref": "Q-B-05"
+        }
+      ]
+    },
+    "C": {
+      "label": "C · Corozal Agro Supplies (incomplete, conflicting figures)",
+      "business_name": "Corozal Agro Supplies",
+      "owners": [
+        "Jorge Tun"
+      ],
+      "documents_v1": [
+        {
+          "type": "dtp",
+          "name": "DTP_Corozal_Agro_v1.docx",
+          "text": "[Page 1]\nDIGITAL TRANSFORMATION PLAN\nBusiness name: Corozal Agro Supplies\nRegistration number: BZ-2021-07730\nDistrict: Corozal\nFull-time employees: 25\nAnnual sales (2026): BZD 410,000\nCapital investment: BZD 90,000\nAmount requested: BZD 4,500\nResponsible person: Jorge Tun\n[Page 2]\n1. Problem statement\nWe want to improve sales with technology.\n2. Proposed solution\nNew software for the shop.\n3. Objectives\nO1: Improve sales | Metric: sales | Target: more | Date: none\nO2: Better inventory | Metric: none | Target: none | Date: 2027-12-31\n[Page 3]\n4. Budget\nB1 | inventory_software | Inventory system | BZD 3,000\nB2 | misc | Miscellaneous equipment | BZD 1,500\nDeclared total: BZD 4,500\n5. Timeline\nStart: 2027-06-01\nEnd: 2028-01-31\n"
+        },
+        {
+          "type": "business_registration",
+          "name": "Registration_BZ-2021-07730.pdf",
+          "text": "[Page 1]\nBELIZE COMPANIES AND CORPORATE AFFAIRS REGISTRY\nCompany: Corozal Agro Supplies\nRegistration number: BZ-2021-07730\n"
+        }
+      ],
+      "documents_v2": [
+        {
+          "type": "dtp",
+          "name": "DTP_Corozal_Agro_v2.docx",
+          "text": "[Page 1]\nDIGITAL TRANSFORMATION PLAN (revised v2)\nBusiness name: Corozal Agro Supplies\nRegistration number: BZ-2021-07730\nDistrict: Corozal\nFull-time employees: 18\nAnnual sales (2026): BZD 410,000\nCapital investment: BZD 90,000\nAmount requested: BZD 4,000\nResponsible person: Jorge Tun, Owner\n[Page 2]\n1. Problem statement\nStock of seeds and fertilizer is counted by hand; in 2026 we ran out of the 10 best-selling products 31 times.\n2. Proposed solution\nAn inventory system with accounting integration and basic digital marketing to farmers.\n3. Objectives\nO1: Reduce stock-outs | Metric: stock-out events per year | Target: below 8 | Date: 2027-12-15\nO2: Real-time inventory | Metric: SKUs tracked in the system | Target: 100% | Date: 2027-10-31\n[Page 3]\n4. Budget\nB1 | inventory_software | Inventory system | BZD 2,600\nB2 | accounting_software | Accounting integration | BZD 900\nB3 | digital_marketing | Farmer outreach campaign | BZD 500\nDeclared total: BZD 4,000\n5. Timeline\nStart: 2027-06-01\nEnd: 2027-12-15\n"
+        }
+      ],
+      "quotes": [
+        {
+          "dsp_id": "DSP-03",
+          "total": 3800,
+          "weeks": 6,
+          "categories_covered": [
+            "inventory_software",
+            "accounting_software"
+          ],
+          "quote_ref": "Q-C-03"
+        },
+        {
+          "dsp_id": "DSP-06",
+          "total": 2500,
+          "weeks": 5,
+          "categories_covered": [
+            "digital_marketing"
+          ],
+          "quote_ref": "Q-C-06"
+        },
+        {
+          "dsp_id": "DSP-01",
+          "total": 3900,
+          "weeks": 8,
+          "categories_covered": [
+            "digital_marketing"
+          ],
+          "quote_ref": "Q-C-01"
+        }
+      ]
+    }
+  },
+  "report_variants": {
+    "clean": "Clean report — everything consistent",
+    "payee_mismatch": "Payment went to a different provider",
+    "amount_mismatch": "Invoice amount does not match the payment",
+    "duplicate_invoice": "Invoice already used in another case",
+    "missing_evidence": "A milestone that is due has no evidence"
+  },
+  "final_variants": {
+    "complete": "Complete final report",
+    "payment_gap": "Final payment short of the grant"
+  },
+  "registry": {
+    "_note": "Documents already received in OTHER cases (used by the duplicate check R8.07)",
+    "invoice_numbers": [
+      {
+        "number": "INV-2207",
+        "case_id": "DIBED-2027-0007"
+      }
+    ],
+    "document_hashes": []
+  }
+}
