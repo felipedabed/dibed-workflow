@@ -37,8 +37,8 @@ Point at the coloured sections:
 ## 2 · Live case (5 min) — package B is the best story
 
 1. Open the form, fill the EOI as **Hopkins Eco Lodge**, Stann Creek, Tourism, *Medium*.
-2. Pick **package B**. → Panel page: score ~50 = **BORDERLINE**, flags `BUDGET_SUM_MISMATCH`,
-   `OBJECTIVE_NOT_MEASURABLE`. Show the evidence table: *"every number has its quote and page."* Approve with a score
+2. Pick **package B**. → Panel page: score in the 50s, right at the threshold (with the AI fallback it lands exactly in the
+   **BORDERLINE** band); flags `BUDGET_SUM_MISMATCH`, `OBJECTIVE_NOT_MEASURABLE`. Show the evidence table: *"every number has its quote and page."* Approve with a score
    and a reason → "that's an override, and it's recorded."
 3. Advisor page: failed checks (objective without date, budget). **Request revision** → MSME uploads v2 →
    advisor sees the diff and the new hash → **Approve and lock**.
